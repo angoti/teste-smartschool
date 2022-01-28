@@ -40,7 +40,7 @@ public class WebConfigSecurity extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http
             .authorizeRequests()
-                 .antMatchers("/login").authenticated()
+                 //.antMatchers("/login").authenticated()
                  .antMatchers("/manteralunos").hasAuthority("admin")
                  .antMatchers("/pagaluno").hasAuthority("aluno")
                  .antMatchers("/cadastroprofessor").hasAuthority("admin")
