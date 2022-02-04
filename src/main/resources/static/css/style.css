@@ -16,6 +16,14 @@ main {
     border: 2px solid var(--cor-azul-cinza);
 }
 
+.input-group {
+    padding: 10px;
+}
+
+.p-1 a img {
+    width: 30px;
+}
+
 @media (min-width: 1281px) {
     .forCenter {
         width: auto !important;
@@ -25,7 +33,4 @@ main {
     .forCenter {
         width: auto !important;
     }
-}
-.input-group {
-    padding: 10px;
 }
